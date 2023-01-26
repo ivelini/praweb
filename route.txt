@@ -1,0 +1,17 @@
+
+  GET|HEAD   / ............................................................................................................................................................................... 
+  POST       _ignition/execute-solution ........................................................................ ignition.executeSolution › Spatie\LaravelIgnition › ExecuteSolutionController
+  GET|HEAD   _ignition/health-check .................................................................................... ignition.healthCheck › Spatie\LaravelIgnition › HealthCheckController
+  POST       _ignition/update-config ................................................................................. ignition.updateConfig › Spatie\LaravelIgnition › UpdateConfigController
+  GET|HEAD   api/user ........................................................................................................................................................................ 
+  GET|HEAD   livewire/livewire.js ..................................................................................................... Livewire\Controllers › LivewireJavaScriptAssets@source
+  GET|HEAD   livewire/livewire.js.map ................................................................................................... Livewire\Controllers › LivewireJavaScriptAssets@maps
+  POST       livewire/message/{name} ......................................................................................... livewire.message › Livewire\Controllers › HttpConnectionHandler
+  GET|HEAD   livewire/preview-file/{filename} ....................................................................... livewire.preview-file › Livewire\Controllers › FilePreviewHandler@handle
+  POST       livewire/upload-file ..................................................................................... livewire.upload-file › Livewire\Controllers › FileUploadHandler@handle
+  GET|HEAD   product/{id} ............................................................................................................................................. ProductController@show
+  GET|HEAD   sanctum/csrf-cookie ........................................................................................... sanctum.csrf-cookie › Laravel\Sanctum › CsrfCookieController@show
+  GET|HEAD   test ........................................................................................................................................................ TestController@test
+
+                                                                                                                                                                           Showing [13] routes
+

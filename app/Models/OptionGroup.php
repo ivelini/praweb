@@ -13,4 +13,9 @@ class OptionGroup extends Model
     {
         return $this->belongsTo(__CLASS__, 'option_group_id', 'id');
     }
+
+    public function options()
+    {
+        return $this->hasMany(Option::class, 'option_group_id', 'id');
+    }
 }
